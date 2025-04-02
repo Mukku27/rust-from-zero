@@ -3,6 +3,9 @@ fn main() {
    let x:u8=10; // x is a variable of type unsigned 8-bit integer which is immutable by default 
    println!("x = {}", x);
 
+   x=20; // This will give an error because x is immutable
+   println!("x = {}", x);
+
     let mut y:i32=20; // y is a variable of type signed 32-bit integer which is mutable
     println!("y = {}", y);
     y=30;
@@ -16,5 +19,7 @@ fn main() {
 
     let b:f32=10.5; // b is a variable of type 32-bit floating point number which is immutable by default
     println!("b = {}", b);
-    
+
+
+
 }
