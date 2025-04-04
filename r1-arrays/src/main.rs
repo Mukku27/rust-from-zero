@@ -15,4 +15,7 @@ fn main() {
     arr2[2] = 30; // changing the third element of the array
     println!("The value of arr2 is: {:?}", arr2);
 
+    let arr3: [i32; 5] = [1; 5]; // arr3 is a variable of type array of signed 32-bit integers which is immutable by default
+    println!("The value of arr3 is: {:?}", arr3);
+
 }
