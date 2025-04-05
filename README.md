@@ -1,1 +1,1 @@
-# rusty-brain
+# rust-from-zero
