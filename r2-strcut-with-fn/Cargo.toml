@@ -1,0 +1,6 @@
+[package]
+name = "r2-strcut-with-fn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
