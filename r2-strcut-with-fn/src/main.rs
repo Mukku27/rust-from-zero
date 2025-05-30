@@ -11,7 +11,7 @@ impl Rect{
     {
         return 2*(self.width+self.length);
     }
-    fn debug()->u32  
+    fn debug()->u32  //static function(without self parameter )
     {
         return 1 ;
     }
@@ -23,5 +23,5 @@ fn main() {
    };
    println!("The total area of the Rectangle = {}",rec.area());
    println!("The total perimeter of the Rectangle = {}",rec.perimeter());
-   println!("{}",Rect::debug());
+   println!("{}",Rect::debug());//Not for related to rec .you cannot call it rec.debug() because of not debug 
 }
