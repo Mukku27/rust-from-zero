@@ -11,6 +11,10 @@ impl Rect{
     {
         return 2*(self.width+self.length);
     }
+    fn debug()->u32  
+    {
+        return 1 ;
+    }
 }
 fn main() {
    let rec=Rect{
@@ -19,4 +23,5 @@ fn main() {
    };
    println!("The total area of the Rectangle = {}",rec.area());
    println!("The total perimeter of the Rectangle = {}",rec.perimeter());
+   println!("{}",Rect::debug());
 }
