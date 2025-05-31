@@ -10,7 +10,7 @@ use std::fs::read_to_string;
 
 fn main() {
     // Corrected way to call read_to_string
-    let result = read_to_string("r2-result-enums/src/a.txt");
+    let result = read_to_string("a.txt");
 
     match result {
         Ok(data) => println!("{}", data),
