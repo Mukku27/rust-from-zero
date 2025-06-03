@@ -36,6 +36,11 @@ fn main(){
         println!("{}",number);
     }
 
+    let str_vec=vec!["aa","bb","cc","dd"];
+    for string in str_vec{
+        println!("{}",string);
+    } 
+
 
 
 }
