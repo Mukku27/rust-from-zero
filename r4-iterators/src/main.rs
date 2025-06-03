@@ -27,4 +27,16 @@ fn main() {
    *value=*value+1;
    }
    println!("After IterMut +1 :{:?}",num_mut);
+
+
+   //4.iterating using .next
+   println!("iterating using .next");
+   let nums=vec![1,2,3,4,5,6,7];
+   let mut iter =nums.iter();
+
+   while let Some(val)=iter.next(){
+    println!("{}",val);
+   }
+   
+
 }
