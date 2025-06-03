@@ -8,6 +8,7 @@ fn main() {
    }
 
    //2.iterating after creating an Iterator
+   //iterators borrow the  particular vector and dont consume it and original vector is still valid
    println!("iterating after creating an Iterator");
    let num=vec![1,2,3,4,5,6,7];
    let iter=num.iter();
@@ -15,4 +16,15 @@ fn main() {
    for value in iter {
     println!("{}",value);
    }
+
+   //3.Muttable iterators method  IterMut()
+
+   let mut  num_mut =vec![1,2,3,4,5,6,7];
+   println!("before IterMut original: {:?}",num_mut);
+   let iter=num_mut.iter_mut();
+
+   for value in iter {
+   *value=*value+1;
+   }
+   println!("After IterMut +1 :{:?}",num_mut);
 }
