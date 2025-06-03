@@ -28,6 +28,16 @@ fn main(){
     vec_str.push(String::from("hello rust"));
     println!("Owned String vector: {:?}", vec_str);
 
+
+
+    //another way to initialise the vector is macro(!)
+    let numbers= vec![1,2,4,5,6,7];
+    for number in numbers {
+        println!("{}",number);
+    }
+
+
+
 }
 
 fn is_even(vec: Vec<i32>)->Vec<i32> {
