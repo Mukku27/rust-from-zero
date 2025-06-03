@@ -39,4 +39,16 @@ fn main() {
    }
    
 
+   //5.IntoIter : convert the collection into an iterator that takes the ownership of the collection
+
+   let nums_into=vec![1,2,3,4,5,6,7];
+   let iter =nums_into.into_iter();
+
+   for value in iter {
+    println!("{}",value);
+   }
+
+  // println!("{:?}",nums_into);
+  // throws error because into_iter iterator that takes the ownership of the collection
+
 }
