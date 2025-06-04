@@ -1,4 +1,4 @@
-**rust-from-zero**
+# **rust-from-zero**
 
 A comprehensive, hands-on repository designed to guide learners from the fundamentals of Rust to more advanced concepts. Each folder contains a standalone Cargo project demonstrating a specific topic, complete with source code and explanations. Use this repository to experiment, study, and build confidence in writing idiomatic Rust.
 
