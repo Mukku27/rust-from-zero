@@ -212,6 +212,9 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 > Converts a `Vec<(K, V)>` into `HashMap<K, V>` using `collect()` and illustrates when this pattern is useful.
 
 ---
+### r5-pattern-matching
+> Pattern Matching with `match` and `if let`
+> Pattern matching is a powerful control-flow construct in Rust. This example introduces match expressions with primitives, enums, tuples, Option, and Result. It also demonstrates if let for cleaner code in some situations.
 
 ### r5-generics
 
