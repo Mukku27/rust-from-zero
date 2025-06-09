@@ -226,6 +226,10 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 > **Traits and Trait Implementation**
 >This example introduces traits—Rust's way of defining shared behavior—and how to implement them for custom types.
 
+### r5-traits
+> **Traits and Trait Bounds with impl Trait Syntax**
+> This example demonstrates how to define and implement traits in Rust, and how to create functions that accept trait-bound parameters using the impl Trait syntax.
+
 
 
 ---
