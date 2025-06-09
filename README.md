@@ -234,6 +234,12 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 
 ---
 
+
+### r6-lifetimes
+> **Understanding Lifetimes and Borrow Checker in Rust**
+> This example demonstrates how Rust uses lifetimes to ensure memory safety by preventing dangling references. It introduces explicit lifetime annotations using 'a and explains how Rust determines which data lives long enough to be safely referenced.
+---
+
 ## Usage
 
 For each example folder:
