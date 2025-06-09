@@ -221,6 +221,13 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 > **Generics**
 > Introduces generic functions, structs, and enums—showing how to write type-agnostic code and enforce trait bounds (e.g., `T: Display`).
 
+
+### r5-traits
+> **Traits and Trait Implementation**
+>This example introduces traits—Rust's way of defining shared behavior—and how to implement them for custom types.
+
+
+
 ---
 
 ## Usage
