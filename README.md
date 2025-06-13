@@ -248,6 +248,10 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 >Threads may interleave execution based on sleep durations and CPU scheduling.
 > join() ensures deterministic cleanup by waiting for threads to finish before the program exits.
 
+### r6-move-closures-with-threads
+> **Using move Closures to Transfer Ownership into Threads**
+>This example dives deeper into how ownership works with threads in Rust. Since threads may outlive the main function's stack, Rust enforces ownership rules strictly to avoid data races and invalid references.
+
 
 ---
 

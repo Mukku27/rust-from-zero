@@ -1,0 +1,6 @@
+[package]
+name = "r6-move-closures-with-theards"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
