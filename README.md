@@ -242,6 +242,13 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 ### r6-structs-with-lifetimes
 > **Using Lifetimes in Structs: Why Borrowed Data Must Outlive the Struct**
 > This example introduces how to use lifetimes with struct fields that borrow data, and why lifetimes must be carefully managed to avoid dangling references.
+
+### r6-threads
+> **Advanced Multithreading in Rust with Multiple Threads and  Synchronization**
+>Threads may interleave execution based on sleep durations and CPU scheduling.
+> join() ensures deterministic cleanup by waiting for threads to finish before the program exits.
+
+
 ---
 
 ## Usage
