@@ -250,7 +250,11 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 
 ### r6-move-closures-with-threads
 > **Using move Closures to Transfer Ownership into Threads**
->This example dives deeper into how ownership works with threads in Rust. Since threads may outlive the main function's stack, Rust enforces ownership rules strictly to avoid data races and invalid references.
+>This example dives deeper into how ownership works with threads in Rust. Since threads may outlive the main function's stack, Rust enforces ownership rules strictly to avoid data races and invalid references
+
+### r6-message-passing
+>**Message Passing with Threads in Rust using mpsc::channel**
+>This example demonstrates safe communication between threads using the message passing model in Rust. The mpsc module provides multi-producer, single-consumer channels, ideal for decoupled thread communication
 
 
 ---
