@@ -256,6 +256,9 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 >**Message Passing with Threads in Rust using mpsc::channel**
 >This example demonstrates safe communication between threads using the message passing model in Rust. The mpsc module provides multi-producer, single-consumer channels, ideal for decoupled thread communication
 
+### r6-future-trait : 
+> **Understanding Async and Futures in Rust**
+> This example introduces Rust's async/await model using the futures crate.
 
 ---
 
