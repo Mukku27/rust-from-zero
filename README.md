@@ -260,6 +260,11 @@ Below is a high‐level overview of each folder and the Rust concepts it covers:
 > **Understanding Async and Futures in Rust**
 > This example introduces Rust's async/await model using the futures crate.
 
+##### r6-async-await
+> It explains how `async` functions work in Rust and how to `await` their results using the Tokio runtime's procedural macro.
+> Demonstrates usage of async functions with `tokio::main` macro
+> Shows how to use `tokio::time::sleep` for non-blocking delay
+
 ---
 
 ## Usage
